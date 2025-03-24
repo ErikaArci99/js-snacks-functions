@@ -5,6 +5,11 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 // Dichiara la funzione qui.
 
+function firstLetters (arr, items){
+    for (i=0; i< arr.lenght; i++){
+    console.log(items.charAt(0))
+    }
+}
 
 // Invoca la funzione qui e stampa il risultato in console
 
