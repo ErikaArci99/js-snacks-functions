@@ -5,11 +5,11 @@ const vowels = ['a', 'e', 'i', 'o', 'u'];
 
 // Dichiara la funzione qui.
 
-function contaVocali (word, vocali){
+const contaVocali = (word, vocali) => {
     let count = 0;
-    for (i=0; i < word.length; i++){
-        if (vocali.includes (word[i])){
-            count ++;
+    for (let i = 0; i < word.length; i++) {
+        if (vocali.includes(word[i])) {
+            count++;
         }
     }
     return count;
