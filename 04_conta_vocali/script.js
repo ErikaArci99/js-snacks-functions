@@ -1,7 +1,7 @@
 /* Scrivi una funzione che accetti una stringa e restituisca il numero di vocali contenute al suo interno */
 
 const word = 'javascript';
-
+const vowels = ['a', 'e', 'i', 'o', 'u'];
 
 // Dichiara la funzione qui.
 
