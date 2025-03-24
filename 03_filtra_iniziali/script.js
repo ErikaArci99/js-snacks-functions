@@ -5,6 +5,14 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 // Dichiara la funzione qui.
 
+function filterByLetter(names, letter) {
+    for (let i = 0; i < names.lenght; i++) {
+        if (names[i][0] === letters) {
+            result.push(names[i]);
+        }
+    }
+}
+return result;
 
 // Invoca la funzione qui e stampa il risultato in console
 
